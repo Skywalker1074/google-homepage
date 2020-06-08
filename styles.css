@@ -1,0 +1,140 @@
+.logobox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+}
+.logoimage {
+    height: 138;
+    width: 408;
+}
+.logo {
+    align-self: center;
+    height: 15px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.left-nav {
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+a {
+  font-family: Arial, sans-serif; 
+  text-decoration: none;
+  color: rgb(0, 0, 0); 
+}
+.right-nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+ .signin {
+     padding: 10px;
+     background-color: CornFlowerBlue;
+     font-size: 16px;
+     border-radius: 10px;
+ }
+.gmail {
+    position: relative;
+    top: 8;
+}
+.images {
+   position: relative;
+   top: 8;   
+}
+.foot {
+border-top: 1px solid gray;
+line-height: 40px;
+border-bottom: 1px solid gray;
+border-left: 1px solid gray;
+border-right: 1px solid gray;
+position: relative;
+top: 345;
+padding:25px 25px 25px 25px;
+background-color: #f2f2f2;
+border-color: #f2f2f2;
+} 
+.leftfoot {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    position: relative;
+    top: 290;
+    right: 0;
+    float: left;  
+}
+.Advertising {
+    font-size: 21px;
+    color: #222; 
+}
+.Business {
+    font-size: 21px;
+    color: #222; 
+}
+.Searchworks {
+    font-size: 21px;
+    color: #222; 
+}
+.rightfoot {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    position: relative;
+    top: 290;
+    right: -10;
+    float: right;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 110px;
+}
+.glass {
+    font-size: 20px;
+    align-self: end;
+}
+.bar {
+height: 34px;
+width: 570px;
+align-self: end;
+border-radius: 25px;
+border-color: rgba(0, 0, 0, 0.87);
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+.search_buttons {
+height: 46px;
+width: 120px;
+margin-right: 20px;
+background-color: #f2f2f2;
+border-radius: 4px;
+align-self: center;
+border: 1px solid #f2f2f2;
+}
+.lucky_button {
+height: 46px;
+width: 120px;
+background-color: #f2f2f2;
+border-radius: 4px;
+align-self: center;
+border: 1px solid #f2f2f2;
+}
